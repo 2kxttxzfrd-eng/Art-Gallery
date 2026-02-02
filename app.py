@@ -253,10 +253,11 @@ def page_home():
         
     with phil_col2:
         st.markdown("""
-        #### Leadership & Community
-        
-        Leadership in the arts is important to me. Organizing local workshops has taught me that art is a universal language that can bridge gaps in our community.
-        """)
+        <div style="background-color: #FFF9C4; padding: 20px; border-radius: 15px; color: #333;">
+            <h4 style="margin-top: 0; color: #444;">Leadership & Community</h4>
+            <p>Leadership in the arts is important to me. Organizing local workshops has taught me that art is a universal language that can bridge gaps in our community.</p>
+        </div>
+        """, unsafe_allow_html=True)
 
 def page_gallery(title, folder):
     st.title(title)

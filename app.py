@@ -54,7 +54,7 @@ def local_css():
             padding: 20px;
             border-radius: 15px;
             color: #333;
-            min-height: 300px; /* Ensure equal height */
+            min-height: 200px; /* Ensure equal height */
         }
         .philosophy-box h4 {
             margin-top: 0;

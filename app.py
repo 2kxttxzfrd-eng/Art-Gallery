@@ -207,7 +207,7 @@ def page_home():
     st.title("Welcome to My Creative Portfolio")
     
     # Use gap="large" for better visual separation
-    col1, col2 = st.columns([1, 2], gap="large")
+    col1, col2 = st.columns([1, 3], gap="large")
     
     with col1:
         # Looking for a profile pic in 0.About Me

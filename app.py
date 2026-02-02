@@ -127,7 +127,12 @@ def load_image(image_path):
         return None
 
 def get_metadata(filename):
-    return ARTWORK_METADATA.get(filename, {"title": "Untitled", "medium": "Unknown Medium", "year": "N/A", "award": ""})
+    if filename in ARTWORK_METADATA:
+        return ARTWORK_METADATA[filename]
+        
+    # Fallback: Use filename as title if metadata is missing
+    title = os.path.splitext(filename)[0]
+    return {"title": title, "medium": "Unknown Medium", "year": "N/A", "award": ""}
 
 def display_gallery(folder_path, col_width=3):
     """

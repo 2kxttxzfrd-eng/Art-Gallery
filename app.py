@@ -194,8 +194,7 @@ def main():
     st.sidebar.markdown("### Contact")
     st.sidebar.info(
         """
-        **Email:** student@example.com  
-        **Instagram:** @art_portfolio
+        **Email:** student@example.com
         """
     )
 

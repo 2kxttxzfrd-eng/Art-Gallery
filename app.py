@@ -226,7 +226,7 @@ def page_home():
         st.markdown("""
         ### Hi, I’m Tyler Liao. 
         
-        While my career is in mechanical engineering, art has been a lifelong passion. I started painting at age nine while camping, capturing the landscapes, shapes, and moments that stayed in my memory. Over the years, I’ve explored origami, custom shoe designs, and other creative projects that challenge me to think about structure, form, and detail.
+        While I’m currently in 9th grade with an interest in mechanical engineering and STEM, art has been a lifelong passion. I started painting at age nine while camping, capturing the landscapes, shapes, and moments that stayed in my memory. Over the years, I’ve explored origami, custom shoe designs, and other creative projects that challenge me to think about structure, form, and detail.
 
         **Why Art Matters to Me**
         

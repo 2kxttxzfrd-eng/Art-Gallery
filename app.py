@@ -230,7 +230,7 @@ def page_home():
 
         **Why Art Matters to Me**
         
-        Art isn’t just a hobby—it’s shaped how I observe the world, approach problems, and connect with others. In high school, I shared this passion with my community by leading art festivals and teaching children how to create and express themselves.
+        Art isn’t just a hobby—it’s shaped :blue[how I observe the world, approach problems, and connect with others.] In high school, I shared this passion with my community by leading art festivals and teaching children how to create and express themselves.
 
         This portfolio showcases my journey, from personal experimentation to community engagement, highlighting how creativity and engineering intersect in my life.
         """)
@@ -245,10 +245,11 @@ def page_home():
     
     with phil_col1:
         st.markdown("""
-        #### Intersection of Engineering & Art
-        
-        My work often explores the intersection of organic forms and geometric structures. In my paintings, I try to capture the quiet moments of observation. In my origami, I challenge myself to transform a single flat sheet into complex, 3D sculptures without cutting or gluing.
-        """)
+        <div style="background-color: #FFF9C4; padding: 20px; border-radius: 15px; color: #333;">
+            <h4 style="margin-top: 0; color: #444;">Intersection of Engineering & Art</h4>
+            <p>My work often explores the intersection of organic forms and geometric structures. In my paintings, I try to capture the quiet moments of observation. In my origami, I challenge myself to transform a single flat sheet into complex, 3D sculptures without cutting or gluing.</p>
+        </div>
+        """, unsafe_allow_html=True)
         
     with phil_col2:
         st.markdown("""

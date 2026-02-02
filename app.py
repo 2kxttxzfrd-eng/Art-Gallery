@@ -249,7 +249,7 @@ def page_home():
     
     with phil_col1:
         st.markdown("""
-        <div style="background-color: #FFF9C4; padding: 20px; border-radius: 15px; color: #333;">
+        <div style="background-color: #FFF9C4; padding: 20px; border-radius: 15px; color: #333; min-height: 250px;">
             <h4 style="margin-top: 0; color: #444;">Intersection of Engineering & Art</h4>
             <p>My work often explores the intersection of organic forms and geometric structures. In my paintings, I try to capture the quiet moments of observation. In my origami, I challenge myself to transform a single flat sheet into complex, 3D sculptures without cutting or gluing.</p>
         </div>
@@ -257,7 +257,7 @@ def page_home():
         
     with phil_col2:
         st.markdown("""
-        <div style="background-color: #FFF9C4; padding: 20px; border-radius: 15px; color: #333;">
+        <div style="background-color: #FFF9C4; padding: 20px; border-radius: 15px; color: #333; min-height: 250px;">
             <h4 style="margin-top: 0; color: #444;">Leadership & Community</h4>
             <p>Leadership in the arts is important to me. Organizing local workshops has taught me that art is a universal language that can bridge gaps in our community.</p>
         </div>

@@ -196,7 +196,7 @@ def display_gallery(folder_path, col_width=3):
 # --- Navigation & Content ---
 
 def main():
-    st.sidebar.title("🎨 Art Portfolio")
+    st.sidebar.title("My Portfolio")
     
     pages = {
         "🏠 Home / About Me": page_home,

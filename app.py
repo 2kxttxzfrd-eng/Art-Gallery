@@ -293,6 +293,22 @@ def page_community(title, folder):
     I believe in using creativity as a tool for leadership and community building.
     Below are some of the initiatives I've been proud to be a part of.
     """)
+    
+    st.markdown("### Video Highlights")
+    v_col1, v_col2, v_col3 = st.columns(3)
+    
+    with v_col1:
+        st.video("https://www.youtube.com/watch?v=VzBKx7chPik")
+        st.caption("Community Origami Workshop")
+
+    with v_col2:
+        st.video("https://www.youtube.com/watch?v=jaAQeGM5jXI")
+        st.caption("Holiday Art Festival")
+
+    with v_col3:
+        st.video("https://www.youtube.com/watch?v=VHx-GcZqgxE")
+        st.caption("Lantern Art Festival")
+
     st.markdown("---")
     display_gallery(folder, col_width=2) # Wider columns for community photos
 

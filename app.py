@@ -112,14 +112,20 @@ ARTWORK_METADATA = {
         "title": "Galaxy Walkers", "medium": "Angelus Paint on Canvas Shoes", "year": "2024", "award": "Commissioned Piece"
     },
     # Community
-    "08E33AA3-CCA8-4DE0-B027-4D4454F453EF_1_102_o.jpeg": {
-        "title": "Mural Project Leadership", "medium": "Community Event", "year": "2023", "award": "Community Service Award"
+    "2025 Fall Math Festival.jpeg": {
+        "title": "2025 Fall Math Festival", "medium": "Community Event", "year": "2025", "award": ""
     },
-    "3083F323-CD66-4CF8-88ED-B741EDA9B4FA_1_105_c.jpeg": {
-        "title": "Art Workshop for Kids", "medium": "Teaching", "year": "2024", "award": ""
+    "2025 Fall Origami Workshop.jpeg": {
+        "title": "2025 Fall Origami Workshop", "medium": "Teaching", "year": "2025", "award": ""
     },
-    "6818B949-CBC1-4942-B161-99CDB302C821_1_102_o.jpeg": {
-        "title": "Charity Auction", "medium": "Event Organizing", "year": "2023", "award": ""
+    "2025 Halloween Origami Event.jpeg": {
+        "title": "2025 Halloween Origami Event", "medium": "Community Event", "year": "2025", "award": ""
+    },
+    "2026 Lantern Art Festival Volunteer Group.jpeg": {
+        "title": "2026 Lantern Art Festival Volunteer Group", "medium": "Community Event", "year": "2026", "award": ""
+    },
+    "2026 Lantern Art Festival.jpeg": {
+        "title": "2026 Lantern Art Festival", "medium": "Community Event", "year": "2026", "award": ""
     },
 }
 
